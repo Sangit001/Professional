@@ -1,0 +1,307 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.navbar {
+    position: relative;
+    top: 30px;
+}
+
+.option-for-navbar {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.option-for-navbar li a {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.option-for-navbar li {
+    list-style: none;
+}
+
+#logo {
+    color: black;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.contact-btn {
+    background-color: transparent;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 8px 10px;
+    margin-right: 50px;
+    cursor: pointer;
+    border: 1.5px solid;
+}
+
+.main-body {
+    /* background-color: red; */
+    height: 100vh;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 25%;
+    /* background-color: pink; */
+    width: 50%;
+    height: 40%;
+    position: relative;
+    font-size: 50px;
+    left: 50px;
+    /* font-family: "Montserrat", sans-serif; */
+}
+
+.my-intro {
+    left: 50px;
+    top: 20%;
+    position: relative;
+    /* background-color: blue; */
+    width: 35%;
+    /* letter-spacing: 2px; */
+}
+
+.second-body {
+    background-color: white;
+    height: 70vh;
+    /* background-color: blue; */
+    display: block;
+    justify-content: center;
+}
+
+.things-that-i-like {
+    position: relative;
+    top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    /* background-color: red; */
+}
+
+.details-i-like {
+    margin-top: 100px;
+    height: max-content;
+    /* background-color: pink; */
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.details-i-like a {
+
+    color: black;
+    text-decoration: none;
+}
+
+.details-i-like h4{
+margin-bottom: 20px;
+}
+.details-i-like p{
+    margin: 10px 0px;
+}
+
+.details1 {
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.details2 {
+    align-items: center;
+    flex-direction: column;
+}
+
+.details3 {
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.third-body {
+    height: 40vh;
+}
+
+.main-third-body {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media img {
+    max-height: 40px;
+}
+
+.third-heading {
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+}
+
+.social-media {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.end{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+}
+
+.footer{
+    /* background-color: black;
+    color: white; */
+    height: 50vh;
+    background-color: black;
+    color: white;
+
+}
+.footer-container{
+    margin-top: 0px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navigation{
+   display: flex;
+   gap: 0px 20px;
+   flex-wrap: nowrap;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+padding: 3px;
+   color: white;
+   transition: all 0.3s ease;
+}
+
+.option-for-footer{
+    margin-top: 50px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo H1{
+    font-size: 80px;
+}
+
+.search-box{
+    height: 30px;
+    width: 250px;
+    border: 1;
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+
+.option-for-footer button{
+height: 29px;
+padding: 0px 10px;
+cursor: pointer;
+background: #ddd;
+border: 1;
+margin-top: 0.4px;
+margin-left: 0px;
+border-radius: 0px 10px 10px 0px;
+}
+.fa{
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+
+
+
+
+
+
+
+/* Hover section */
+.details1 p :hover{
+text-decoration: underline;
+}
+.details2 p:hover{
+text-decoration: underline;
+}
+.details3 p :hover{
+    text-decoration: underline;
+}
+.navigation :hover{
+    text-decoration: underline;
+}
+
+
+
+
+/* responsive now */
+@media(max-width:600px){
+    .details-i-like {
+margin-left: 20px;
+margin-top: 10px;
+    }
+    .main-title{
+        width: 100%;
+
+    }
+.my-intro{
+    margin-top: 45px;
+        
+}
+.second-body{
+    height:30vh;
+    margin-top: 10px;
+}
+.third-heading{
+    margin-top: 30px;
+}
+.main-third-body{
+    height: 100px;
+}
+.third-body{
+    height: max-content;
+}
+.footer{
+    overflow: hidden;
+    height: 30vh;
+}
+.logo H1{
+font-size: 30px;
+}
+.search-box{
+width: 50px;
+}
+.footer-container p{
+    font-size:10px ;
+}
+.option-for-footer{
+    padding: 0px 10px;
+}
+.navigation{
+    font-size: 10px;
+}
+.navigation h3{
+    font-size: 20px;
+    padding: 0px 10px;
+}
+}
